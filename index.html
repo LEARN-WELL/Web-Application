@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learnwell.com</title>
+    <style>
+        body {
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, sans-serif;
+            background-color: #ffffff; /* Blue background for the whole page */
+            color: rgb(7, 54, 124); /* Default text color white to contrast with blue */
+            margin: 0;
+            padding: 0;
+            align-items: center;
+        }
+
+        header {
+            background-color: #250d79;
+            padding: 20px;
+            color: rgb(255, 255, 255);
+            text-align: center;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+        }
+
+        .logo img {
+            width: 120px; /* Adjust logo size */
+            height: auto;
+            margin-right: 10px;
+        }
+
+        .logo span {
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+
+        nav {
+            display: flex;
+            justify-content: flex-end; /* Align links to the right */
+            flex: 1;
+        }
+
+        nav a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            margin: 0 10px;
+            border-radius: 4px;
+        }
+
+        nav a:hover {
+            background-color: #371d9e;
+        }
+
+        .section-container {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 30px;
+        }
+
+        .section {
+            flex: 1;
+            margin: 0 15px;
+        }
+
+        .card {
+            width: 100%;
+            border: 3px solid #e4c602;
+            border-radius: 30px;
+            overflow: hidden;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+        }
+
+        .card img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+
+        .card-body {
+            padding: 15px;
+            background-color: #ffffff;
+            text-align: center;
+        }
+
+        .card-title {
+            font-size: 1.25rem;
+            margin-bottom: 10px;
+        }
+
+        .card-text {
+            margin-bottom: 15px;
+            font-size: 1rem;
+            color: #555;
+        }
+
+        .btn {
+            text-decoration: none;
+            background-color: #35189e;
+            color: rgb(255, 255, 255);
+            padding: 10px 15px;
+            border-radius: 4px;
+        }
+
+        .btn:hover {
+            background-color: #371d9e;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="img/learnwell.png" alt="Logo">
+            <span></span>
+        </div>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="courses.html">Courses</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+            
+        </nav>
+    </header>
+
+    <h1>Welcome to LEARNWELL, The After School Club website! A vibrant and dynamic program designed to enrich students' learning beyond the classroom. Our club offers a diverse range of activities, from academic support to creative arts and sports, providing a well-rounded experience for students after school hours.</h1>
+
+    <div class="section-container">
+        <!-- Section 1 -->
+        <div class="section">
+            <div class="card">
+                <img src="https://scontent.fcgy2-2.fna.fbcdn.net/v/t1.15752-9/465041392_1003741501510510_4075284340314128974_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=9f807c&_nc_eui2=AeH0xK5vSFjR1LfBi9hJhlej8SZDv8Lxt5_xJkO_wvG3nzZ2b2LyH6C5LbserB2KL-Q5rXI4VcN3p94-gQ0oOQtl&_nc_ohc=-YULi0Z7zDwQ7kNvgHlKj54&_nc_zt=23&_nc_ht=scontent.fcgy2-2.fna&oh=03_Q7cD1QH8uWVclOe-YNFjPNgGSex3dtUjPfBpenT5dK1AtgFRPg&oe=676D8483" alt="Library Image">
+                <div class="card-body">
+                    <h2 class="card-title">LIBRARY</h2>
+                    <p class="card-text">CLICK IF YOU WANT TO STUDY!</p>
+                    <button type="button" class="btn btn-secondary" disabled>TOPLOKA</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="https://scontent-atl3-1.xx.fbcdn.net/v/t1.15752-9/462564070_1107540374423128_8252507595377453746_n.jpg?stp=dst-jpg_s480x480_tt6&_nc_cat=107&ccb=1-7&_nc_sid=0024fc&_nc_eui2=AeHTzhnEWWkdkydewyd31qSZAFGQFf04hEwAUZAV_TiETC6lbdsRlUggk56DGKvvCKnWk0aSGwoe_wQQsZZaldeO&_nc_ohc=ttAGvFU8ZuwQ7kNvgHYnh-b&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-atl3-1.xx&oh=03_Q7cD1QF7WaOoqj4iH0xsfPG-5mHUvaa6AE_kF37VFXC6cdqxJA&oe=676D7435" alt="Laboratory Image">
+                <div class="card-body">
+                    <h2 class="card-title">LABORATORY</h2>
+                    <p class="card-text">CLICK IF YOU WANT TO CODE!</p>
+                    <button type="button" class="btn btn-secondary" disabled>TOPLOKA</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Section 2 -->
+        <div class="section">
+            <div class="card">
+                <img src="https://scontent.fcgy2-4.fna.fbcdn.net/v/t1.15752-9/462638821_1257971395347094_4799605403631889297_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=9f807c&_nc_eui2=AeELHzqTfQaTE-gdSbXdEG7IEMb-qM4QBpwQxv6ozhAGnOdlMn9u6D7t0Lu80s29JOmfKzxLTcSiddJkkqFcCOJE&_nc_ohc=144MetTQe2kQ7kNvgHY6vwT&_nc_zt=23&_nc_ht=scontent.fcgy2-4.fna&oh=03_Q7cD1QGWPdhYhBQlyhAVOrGrm-EA41RmdJXb3q6ao-5Qo6MDkQ&oe=676D5BE5" alt="Dance Practice Image">
+                <div class="card-body">
+                    <h2 class="card-title">DANCE PRACTICE</h2>
+                    <p class="card-text">CLICK IF YOU WANT TO DANCE!</p>
+                    <button type="button" class="btn btn-secondary" disabled>TOPLOKA</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="https://scontent.fcgy2-2.fna.fbcdn.net/v/t1.15752-9/462653794_557234683832051_3243358011419496209_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=9f807c&_nc_eui2=AeG8n-y1NV76x6YTQ-sbo8t9Vzo5TmpZLS1XOjlOalktLYjsCLbCzfLNJAGJy1TwUAoeoVIPZdmPdA2Kd2n9t73A&_nc_ohc=YVDl6RitF9QQ7kNvgE0RSgu&_nc_zt=23&_nc_ht=scontent.fcgy2-2.fna&oh=03_Q7cD1QERHxqFr5PxjYI47OjcxO_xOlvQlkJwcAyBXP9tlY-e3Q&oe=676D633A" alt="Stambay Image">
+                <div class="card-body">
+                    <h2 class="card-title">STAMBAY</h2>
+                    <p class="card-text">CLICK IF YOU WANT TO STAMBAY!</p>
+                    <button type="button" class="btn btn-secondary" disabled>TOPLOKA</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Section 3 -->
+        <div class="section">
+            <div class="card">
+                <img src="https://scontent.fcgy2-2.fna.fbcdn.net/v/t1.15752-9/462577860_1272710380547288_4815031455441551639_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=9f807c&_nc_eui2=AeHAzpZMzOiXjRl9E1v9fhH2IxHfXWaFi_ojEd9dZoWL-mthxacA0-3kHbuJWLHFvNURr7tpROfIVlDAyH0pIwrB&_nc_ohc=Yzte94SgEIsQ7kNvgG2A4SM&_nc_zt=23&_nc_ht=scontent.fcgy2-2.fna&oh=03_Q7cD1QH9fZz2vNOW58gBQNJ5YAOfip7DUrxK1Zemte--l0ihxw&oe=676D4EC0" alt="Foodtrip Image">
+                <div class="card-body">
+                    <h2 class="card-title">FOODTRIP</h2>
+                    <p class="card-text">CLICK IF YOU WANT TO EAT!</p>
+                    <button type="button" class="btn btn-secondary" disabled>TOPLOKA</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="https://scontent.fcgy2-1.fna.fbcdn.net/v/t1.15752-9/462651988_1255383192340308_3665262795914146511_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=9f807c&_nc_eui2=AeH4kRbwKrizgJ0Useot8xOGks7CoSkY0rGSzsKhKRjSsXFP8P6qTiHLSFf_WKtFjTzmXA-0uqBcmiTTQAj50O4d&_nc_ohc=mnsVUqjegQIQ7kNvgE8Pvk7&_nc_zt=23&_nc_ht=scontent.fcgy2-1.fna&oh=03_Q7cD1QGswFjP8lhdymk7lUZ8gHtyr0bA85gg8AVuhvhrqVFiyA&oe=676D8818" alt="Gardening Image">
+                <div class="card-body">
+                    <h2 class="card-title">GARDENING</h2>
+                    <p class="card-text">CLICK IF YOU WANT TO PLANT!</p>
+                    <button type="button" class="btn btn-secondary" disabled>TOPLOKA</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+ 
